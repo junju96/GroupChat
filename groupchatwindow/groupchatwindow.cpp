@@ -14,7 +14,7 @@ GroupChatWindow::GroupChatWindow(QWidget *parent)
     : QMainWindow(parent)
 {
     setWindowTitle("群组消息发送界面");
-    setMinimumSize(800, 600);
+    setMinimumSize(736, 540);
 
     initUsers();
 

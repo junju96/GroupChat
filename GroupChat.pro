@@ -14,21 +14,19 @@ SOURCES += \
     groupchatwindow/groupchatwindow.cpp \
     groupmemberdialog.cpp \
     main.cpp \
-    mainwindow.cpp \
     messagebubble/messagebubble.cpp \
     messageitem/messageitem.cpp
 
 HEADERS += \
+    groupchatconfig.h \
     avatarwidget/avatarwidget.h \
     database/chatdatabase.h \
     groupchatwindow/groupchatwindow.h \
     groupmemberdialog.h \
-    mainwindow.h \
     messagebubble/messagebubble.h \
     messageitem/messageitem.h
 
-FORMS += \
-    mainwindow.ui
+FORMS +=
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
