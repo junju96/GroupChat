@@ -1,0 +1,60 @@
+[200~# Qt项目构建生成的文件和目录
+build/
+debug/
+release/
+*.pro.user
+*.pro~
+*.pri~
+*.ui~
+*.h.gch
+*.o
+*.obj
+*.dll
+*.exe
+*.ilk
+*.pdb
+*.exp
+*.lib
+*.a
+*.la
+*.lo
+*.dylib
+*.so
+*.so.*
+*.out
+*.ilk
+*.aps
+*.sbr
+*.pdb
+*.idb
+*.ipch
+*.tlog
+*.vspscc
+*.vssscc
+.svn
+.cvs
+.swo
+.swp
+*.sw?
+*.bak
+*.BAK
+*.tmp
+*.old
+*.orig
+*.rej
+*~
+# Qt Creator自动生成的配置文件
+.qtcreator/
+# 日志文件
+*.log
+# 二进制文件
+*.bin
+# 第三方库的构建目录（假设你的项目使用第三方库，并且有自己的构建目录）
+thirdparty/build/
+# Android 构建相关
+android-build/
+# iOS 构建相关
+ios-build/
+# 其他可能的构建配置目录
+cmake-build-*/
+qmake-build-*/
